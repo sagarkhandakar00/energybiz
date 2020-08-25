@@ -1,0 +1,431 @@
+/* 
+           Master Stylesheet
+    ============================
+    Template Name :Energybiz || HTML Template
+    Author: Sagar Khandakar
+    Author url: https://nai.com;
+    Descriptions: Energybiz Psd Template
+    Version: 1.0.0
+    Tag: blog, two colluom
+
+ */
+
+
+/* Table of Content
+=====================
+ 1. Typrography
+ 2.
+ 3.
+ 4.
+ 5.
+ 6.
+*/
+/*==========Typrography start here==========*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
+*:focus{
+    outline:0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+/*==========Common start here==========*/
+.container{
+    width:78%;
+    margin:0 auto;
+}
+.wrapper, .banner-logo{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+a{
+    font-size:18px;
+    font-weight:500;
+    color:#0f0c51;
+    text-decoration:none;
+}
+
+/*==========header start here==========*/
+header{
+    padding:30px 0;
+}
+nav ul{
+    margin:0;
+    padding:0;
+}
+nav ul li{
+    display:inline-block;
+    padding-right:26px;
+}
+nav ul li:last-child{
+    padding-right:0;
+}
+/*==========banner start here==========*/
+.banner{
+    background-image:url(../images/banner.jpg);
+    height:700px;
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position:center;
+    padding:110px 0 140px;
+}
+.banner-text{
+    flex-basis:820px;
+}
+.banner-text h1{
+    font-size:75px;
+    font-weight:700;
+    color:#ffffff;
+    line-height:5rem;
+    margin-bottom: 0;
+}
+.banner-text p{
+    max-width:400px;
+    color:#fff;
+    font-size:16px;
+    font-weight:300;
+}
+.banner-text form{
+    width:390px;
+    position:relative;
+    padding-top:50px;
+}
+
+.banner-text form input[type='email']{
+    width:60%;
+    background:#100d55;
+    border:none;
+    padding:12px 30px;
+    border-radius: 50px;
+    
+
+}
+.banner-text form input[type='email']::placeholder{
+    color:#e3e3ff;
+    font-size:14px;
+    font-weight:100;
+}
+.banner-text form input[type='submit']{
+    width:140px;
+    position:absolute;
+    top: 50px;
+    left: 170px;
+    padding:12px 0;
+    border-radius: 50px;
+    border:none;
+    font-size:14px;
+    color:#201b85;
+}
+.banner-img{
+    padding-top:80px;
+}
+.banner-img img{
+    width:560px;
+}
+.banner-logo{
+    padding-top:50px;
+}
+
+/*==========form start here==========*/
+.form-area{
+    padding:170px 0;
+}
+.form-text{
+   width:560px;
+}
+.form-text h2, .partner h2{
+    font-size:40px;
+    color:#151163;
+    line-height:50px;
+}
+.form-text p, .form-text a{
+    font-size:18px;
+    color:#151163;
+    line-height:27px;
+}
+.form-text a {
+    margin-top:20px;
+    width: 272px;
+    display: inline-flex;
+    align-items: center;
+}
+.form-text a i{
+    display:inline-block;
+    font-size:24px;
+    background: #151163;
+    color:#fff;
+    margin-right:15px;
+   height:50px;
+   width:80px;
+   text-align: center;
+    line-height:50px;
+    border-radius:50%;
+}
+
+
+.form{
+    width:510px;
+    box-shadow: -4px 10px 10px #dddddd57;
+}
+.form-heading{
+    background:#fff;
+    text-align:center;
+    padding:50px 60px;
+    border-radius:40px;
+     margin-top: -210px;
+    position: absolute;
+    
+}
+.form-heading h4{
+    font-size:25px;
+    color:#151163;
+    font-weight:500;
+    margin-bottom:0;
+}
+.form-heading p{
+    font-size:16px;
+    color:#151163;
+    width: 391px;
+}
+.form form{
+    padding:120px 0 70px;
+    background:#151163;
+    top:40px;
+    border-radius:15px;
+}
+.form form input{
+    width:400px;
+    margin: 15px auto;
+    display:block;
+    padding:18px 20px;
+    border-radius:30px;
+    border:none;
+}
+.form form input[type="submit"]{
+    width:425px;
+    padding:22px 20px;
+    border-radius:32px;
+    margin-top:40px;
+    text-transform:uppercase;
+}
+/*==========form end here==========*/
+/*==========partner start here==========*/
+.partner{
+    padding:150px 0;
+    text-align:center;
+}
+/*==========partner end here==========*/
+
+/*==========cash back start here==========*/
+.cash-back{
+    padding:60px 0 180px;
+    background: #1c1a76 !important;
+}
+.cash-text{
+    flex-basis:560px;
+}
+.cash-text h3{
+    font-size:60px;
+    color:#fff;
+}
+.cash-text span{
+    direction:block;
+    text-align:center;
+    color:#ff0000;
+}
+.cash-img img{
+    width:600px;
+}
+.cash-logo{
+    padding-top:140px;
+}
+/*==========cash back end here==========*/
+
+/*service area start here*/
+.service{
+    padding:210px 0;
+}
+.service-work{
+    display:flex;
+    flex-wrap:wrap;
+    width:520px;
+    justify-content:space-between;
+}
+.single-s-work{
+   /*text-align:center;*/
+   width:240px;
+   margin:50px 0; 
+}
+.single-s-work h3{
+    margin: 0;
+    font-size:30px;
+    color:#1c1a76;
+    font-weight:500;
+
+}
+.single-s-work p{
+    font-size:14px;
+    color:#1c1a76;
+}
+.service-right{
+    background:#f6fbff;
+    padding:50px 30px;
+    display:flex;
+    flex-wrap:wrap;
+    width:700px;
+   align-items:center;
+}
+
+/*service area end here*/
+
+/*==========about start here==========*/
+.about{
+    padding:150px 0;
+}
+.about-text{
+    width:830px;
+}
+.service-text{
+    width:600px;
+}
+.about-text h2{
+    font-size:40px;
+    font-weight:700;
+    color:#201b85;
+    word-spacing:3px;
+    margin:0;
+}
+.about-text p{
+    font-size:18px;
+    color:#151163;
+    font-weight:400;
+    width:500px;
+}
+.about-img{
+    padding:80px 0;
+    flex-basis:600px;
+}
+.about-img img{
+    width:580px;
+}
+.about-work{
+    display:flex;
+    flex-basis:620px;
+    flex-wrap:wrap;
+}
+.single-a-work{
+    height:210px;
+    width:210px;
+    text-align:center;
+    color:#53508d;
+}
+.single-a-work:hover{
+    box-shadow:5px 5px 15px #ddd;
+    border-radius:10px;
+}
+.single-a-work h3{
+    font-size:40px;
+    margin-bottom:0;
+    font-weight:700;
+}
+.single-a-work h4{
+    margin-top:0;
+    font-size:18px;
+    font-weight:500;
+}
+/*==========about end here==========*/
+/*==========join start here==========*/
+.join{
+    padding:130px 0 120px;
+    background:#fcfcfc;
+}
+.join-content{
+    text-align:center;
+}
+.join-content h3{
+    font-size:40px;
+    color:#201b85;
+    margin-bottom:0;
+    font-weight: 700;
+}
+.join-content h2{
+    font-size:40px;
+    color:#ff0000;
+    margin-top:0;
+    font-weight: 700;
+}
+.join-content p{
+    width:700px;
+    margin:0 auto;
+    font-size:18px;
+    color:#151163;
+    font-weight:400;
+}
+.join-content img{
+    padding:30px 0;
+}
+.join-content a{
+    width:110px;
+   padding:20px 0;
+    display:block;
+    margin:0 auto;
+    text-align:center;
+    padding:20px 30px;
+    color:#fff;
+    font-weight:400;
+    font-size:18px;
+   background:#1c1a76;
+}
+/*==========trusted start here==========*/
+.trusted{
+    padding:250px 0 220px;
+    text-align:center;
+}
+.trusted h5{
+    font-weight:400;
+    font-size:15.99px;
+    color:#151163;
+    margin-bottom: 40px;
+}
+/*==========trusted end here==========*/
+
+/*==========contact start here==========*/
+.contact{
+    padding:120px 0;
+    background: #1c1a76;
+}
+.container-fluid{
+    width:60%;
+    margin:0 auto;
+}
+.single-contact{
+    text-align:center;
+    color:#fff;
+}
+.single-contact h6{
+    font-size:25px;
+    font-weight:400;
+    margin-bottom: 10px;
+}
+.single-contact span{
+    display:block;
+    font-size:16px;
+    font-weight:400;
+}
+/*==========contact start end==========*/
+
+footer{
+    text-align:center;
+    padding:20px 0;
+}
+footer p{
+    color:#1c1a76;
+    font-size:16px;
+}
